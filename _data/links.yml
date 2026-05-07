@@ -56,11 +56,11 @@
       url1: https://3d.bk.tudelft.nl/courses/geo5017/
       desc: "[Q3] Machine learning"
     - name: GEO5020
-      url1: https://geomatics.bk.tudelft.nl/courses/geo5020/
+      url1: https://geomatics.bk.tudelft.nl/geo5020/
       desc: "[Q4] Application of Geomatics 1"
     - name: GEO5021
-      url1: https://geomatics.bk.tudelft.nl/courses/geo5021/
-      desc: "[Q4] Application of Geomatics 2"
+      url1: https://geomatics.bk.tudelft.nl/geo5021/
+      desc: "[Q5] Application of Geomatics 2"
     # - name: GEO5019
     #   url1: https://geomatics.bk.tudelft.nl/geo5019/
     #   desc: "[Q6] Geomatics Studio"
