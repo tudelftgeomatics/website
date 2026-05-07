@@ -1,138 +1,148 @@
+- category: 📢 News!
+  links:
+    - name: 2026-05-07
+      desc: Q5 logistics slides online
+      url2: /q5/
+
 - category: Q1+Q2 courses
   links:
     - name: GEO1000
-      url: https://brightspace.tudelft.nl/d2l/home/774994
-      extra: Programming
+      url1: https://brightspace.tudelft.nl/d2l/home/774994
+      desc: Programming
     - name: GEO1001
-      url: https://brightspace.tudelft.nl/d2l/home/774995
-      extra: Sensing tech
+      url1: https://brightspace.tudelft.nl/d2l/home/774995
+      desc: Sensing tech
     - name: GEO1002
-      url: https://brightspace.tudelft.nl/
-      extra: GIS
+      url1: https://brightspace.tudelft.nl/
+      desc: GIS
     - name: GEO1003
-      url: https://brightspace.tudelft.nl/
-      extra: Positioning
+      url1: https://brightspace.tudelft.nl/
+      desc: Positioning
     - name: GEO1006
-      url: https://brightspace.tudelft.nl/
-      extra: GeoDBMS
+      url1: https://brightspace.tudelft.nl/
+      desc: GeoDBMS
     - name: GEO1015
-      url: https://3d.bk.tudelft.nl/courses/geo1015
-      extra: DTM
+      url1: https://3d.bk.tudelft.nl/courses/geo1015
+      desc: DTM
 
 - category: Q3+Q4 courses
   links:
     - name: GEO1009
-      url: https://brightspace.tudelft.nl/
-      extra: Geo-governance
+      url1: https://brightspace.tudelft.nl/
+      desc: Geo-governance
     - name: GEO1016
-      url: https://3d.bk.tudelft.nl/courses/geo1016
-      extra: 3D vision
+      url1: https://3d.bk.tudelft.nl/courses/geo1016
+      desc: 3D vision
     - name: GEO1004
-      url: https://3d.bk.tudelft.nl/courses/geo1004
-      extra: 3D modelling
+      url1: https://3d.bk.tudelft.nl/courses/geo1004
+      desc: 3D modelling
     - name: GEO1007
-      url: https://brightspace.tudelft.nl/
-      extra: Geoweb
+      url1: https://brightspace.tudelft.nl/
+      desc: Geoweb
+
+- category: Geomatics electives
+  links:
+    - name: Pre-approved electives
+      url1: https://studyguide2526.tudelft.nl/opleidingen/study-guide/educations/10542/
+      desc: elective procedure
+      url2: /electives/
+    - name: GEO5017
+      url1: https://3d.bk.tudelft.nl/courses/geo5017/
+      desc: Q3
+      url2: Machine learning
+    - name: GEOIT1501
+      url1: https://geomatics.bk.tudelft.nl/geoit1501/
+      desc: Q5
+      url2: Synthesis project
+    - name: GEO5019
+      url1: https://geomatics.bk.tudelft.nl/geo5019/
+      desc: Q6
+      url2: Geomatics Studio
+    - name: GEO5010
+      url1: https://3d.bk.tudelft.nl/courses/geo5010/
+      desc: all Qs
+      url2: Research orientation
+    - name: GEO5016
+      url1: https://geomatics.bk.tudelft.nl/geo5016/
+      desc: all Qs
+      url2: Internship
 
 - category: Useful links
   links:
     - name: Study guide 2025-2026
-      url: https://studyguide2526.tudelft.nl/opleidingen/study-guide/educations/10542
+      url1: https://studyguide2526.tudelft.nl/opleidingen/study-guide/educations/10542
     - name: Official MSc Geomatics page
-      url: https://geomatics.tudelft.nl
+      url1: https://geomatics.tudelft.nl
     - name: MyTimetable
-      url: https://mytimetable.tudelft.nl/schedule
+      url1: https://mytimetable.tudelft.nl/schedule
     - name: Official courses evaluations
-      url: https://brightspace-cc.tudelft.nl/course/2341/evaluations-tud
+      url1: https://brightspace-cc.tudelft.nl/course/2341/evaluations-tud
     - name: TUDelft templates+logos
-      url: https://www.tudelft.nl/en/tu-delft-corporate-design
-
-- category: Our electives
-  links:
-    - name: Q5 logistics
-      url: "/q5/"
-    - name: Pre-approved electives
-      url: https://studyguide2526.tudelft.nl/opleidingen/study-guide/educations/10542/
-      extra: "[elective procedure](/electives/)"
-    - name: GEO5017
-      url: https://3d.bk.tudelft.nl/courses/geo5017/
-      extra: "[Q3] Machine learning"
-    - name: GEOIT1501
-      url: https://geomatics.bk.tudelft.nl/geoit1501/
-      extra: "[Q5] Synthesis project"
-    - name: GEO5019
-      url: https://geomatics.bk.tudelft.nl/geo5019/
-      extra: "[Q6] Geomatics Studio"
-    - name: GEO5010
-      url: https://3d.bk.tudelft.nl/courses/geo5010/
-      extra: "[all Qs] Research orientation"
-    - name: GEO5016
-      url: https://geomatics.bk.tudelft.nl/geo5016/
-      extra: "[all Qs] Internship"
+      url1: https://www.tudelft.nl/en/tu-delft-corporate-design
 
 - category: Administration
   links:
     - name: All forms
-      url: https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms
+      url1: https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms
     - name: How to register for exams
-      url: https://www.tudelft.nl/en/student/my-study-me/education/courses-and-exams/exams/registration-for-exams
-      extra:
+      url1: https://www.tudelft.nl/en/student/my-study-me/education/courses-and-exams/exams/registration-for-exams
+      desc:
     - name: BK Boards of Studies (BoS)
-      url: https://www.tudelft.nl/en/student/a-be-student-portal/organisation/boards-of-studies
-      extra: Martijn Meijers
+      url1: https://www.tudelft.nl/en/student/a-be-student-portal/organisation/boards-of-studies
+      desc: Martijn Meijers
     - name: BK Board of Examiners (BoE)
-      url: https://www.tudelft.nl/en/student/a-be-student-portal/organisation/board-of-examiners
-      extra: Hendrik Ploeger
+      url1: https://www.tudelft.nl/en/student/a-be-student-portal/organisation/board-of-examiners
+      desc: Hendrik Ploeger
     - name: Student Charter
-      url: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations/student-charter
-      extra:
+      url1: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations/student-charter
+      desc:
     - name: Faculty regulations
-      url: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations
-      extra:
+      url1: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations
+      desc:
     - name: Fraud & Plagiarism
-      url: https://www.tudelft.nl/en/student/my-study-me/rules-guidelines-and-participation/fraud-plagiarism
-      extra:
+      url1: https://www.tudelft.nl/en/student/my-study-me/rules-guidelines-and-participation/fraud-plagiarism
+      desc:
 
 - category: MSc thesis
   links:
     - name: GEO2020
-      url: https://3d.bk.tudelft.nl/courses/geo2020
-      extra: thesis <2025
+      url1: https://3d.bk.tudelft.nl/courses/geo2020
+      desc: thesis <2025
     - name: GEO2021
-      url: https://geomatics.bk.tudelft.nl/geo2021
-      extra: thesis >= 2025
+      url1: https://geomatics.bk.tudelft.nl/geo2021
+      desc: thesis >= 2025
     - name: Thesis templates
-      url: https://geomatics.bk.tudelft.nl/geogeeks/writing/
-      extra: and tips
-
-- category: Help
-  links:
-    - name: Academic councellors
-      url: https://www.tudelft.nl/en/student/a-be-student-portal/organisation/academic-counsellors
-      extra: Struggling?
-    - name: Discord of MSc Geomatics
-      url: https://discord.gg/XqNYUYCS7b
-      extra: Discuss with others
-    - name: Geogeeks
-      url: https://geomatics.bk.tudelft.nl/geogeeks
-      extra: 🤓
-    - name: MSc Geomatics forms
-      url: https://www.tudelft.nl/studenten/bk-studentenportal/praktische-zaken/formulieren
-      # extra:
+      url1: https://geomatics.bk.tudelft.nl/geogeeks/writing/
+      desc: and tips
 
 - category: MOOCs
   links:
     - name: Calculus I
-      url: https://online-learning.tudelft.nl/courses/calculus-i-from-functions-to-differential-equations/
-      # extra: From functions to differential equations
+      url1: https://online-learning.tudelft.nl/courses/calculus-i-from-functions-to-differential-equations/
+      # desc: From functions to differential equations
     - name: Calculus II
-      url: https://online-learning.tudelft.nl/courses/calculus-ii-multivariable-functions/
-      # extra: Multivariable functions
+      url1: https://online-learning.tudelft.nl/courses/calculus-ii-multivariable-functions/
+      # desc: Multivariable functions
     - name: Linear algebra I
-      url: https://online-learning.tudelft.nl/courses/linear-algebra-i-vectors-and-linear-equations/
-      # extra: Vectors and linear equations
+      url1: https://online-learning.tudelft.nl/courses/linear-algebra-i-vectors-and-linear-equations/
+      # desc: Vectors and linear equations
     - name: Linear algebra II
-      url: https://online-learning.tudelft.nl/courses/linear-algebra-ii-matrices-and-linear-transformations/
-      # extra: Matrices and linear transformations
+      url1: https://online-learning.tudelft.nl/courses/linear-algebra-ii-matrices-and-linear-transformations/
+      # desc: Matrices and linear transformations
     - name: Probability theory
-      url: https://online-learning.tudelft.nl/courses/probability-theory/
+      url1: https://online-learning.tudelft.nl/courses/probability-theory/
+
+- category: Help
+  links:
+    - name: Academic councellors
+      url1: https://www.tudelft.nl/en/student/a-be-student-portal/organisation/academic-counsellors
+      desc: Struggling?
+    - name: Discord of MSc Geomatics
+      url1: https://discord.gg/XqNYUYCS7b
+      desc: Discuss with others
+    - name: Geogeeks
+      url1: https://geomatics.bk.tudelft.nl/geogeeks
+      desc: 🤓
+    - name: MSc Geomatics forms
+      url1: https://www.tudelft.nl/studenten/bk-studentenportal/praktische-zaken/formulieren
+      # desc:

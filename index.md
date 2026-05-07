@@ -12,10 +12,12 @@ layout: home
         <tbody>
         {% for each in cat.links %}
           <tr>
-            <td><a href="{{each.url}}">{{each.name}}</a></td>
+            <td>{% if each.url1 %}<a href="{{ each.url1 }}">{{ each.name }}</a>{% else %}{{ each.name }}{% endif %}</td>
             <td class="text-left">
-            {% if each.extra %}
-              {{ each.extra | markdownify }}
+            {% if each.url2 %}
+              <a href="{{ each.url2 }}">{{ each.desc }}</a>
+            {% elsif each.desc %}
+              {{ each.desc }}
             {% endif %}
             </td>
           </tr>
