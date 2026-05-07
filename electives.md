@@ -13,9 +13,9 @@ For the electives there are different procedures for different types of elective
 
 ## 1. Pre-approved electives
 
-The list of pre-approved Geomatics electives are listed there for the different quarters: <https://studyguide.tudelft.nl/opleidingen/study-guide/educations/10542>. 
+The list of pre-approved Geomatics electives are listed there for the different quarters: <https://studyguide2526.tudelft.nl/opleidingen/study-guide/educations/10542/>. 
 
-Those are composed of geomatics courses (GM-codes), BK faculty courses, and courses at other faculties.
+Those are composed of geomatics courses (GEO-codes), BK faculty courses, and courses at other faculties.
 
 If you attend and pass one of these pre-approved elective courses, it should be automatically added to your OSIRIS. There is no other actions to take.
 
@@ -28,7 +28,7 @@ Formally, it needs to be approved by the Board of Examiners and the Programme Di
 The procedure to follow:
 
 1. Send an email to <geomatics@tudelft.nl> explaining which course you want to follow and why you think it’s related to Geomatics.
-2. Attach the filled form "Geomatics Master Electives List" to the email; the form is there: https://www.tudelft.nl/studenten/bk-studentenportal/praktische-zaken/formulieren
+2. Attach the filled form "Geomatics Master Electives List" to the email; the form is there: https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms
 3. With a positive advice: send the form of step 2 to the Board of Examiners <[Examencommissie-BK@tudelft.nl](mailto:Examencommissie-BK@tudelft.nl)> and take the elective.
 
 ---
