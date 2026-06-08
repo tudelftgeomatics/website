@@ -22,6 +22,10 @@ title: MSc Geomatics info
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geomatics.bk.tudelft.nl"
 # Build settings
+
+kramdown:
+  toc_levels: 2..6
+
 # theme: minima
 # plugins:
 #   - jekyll-feed

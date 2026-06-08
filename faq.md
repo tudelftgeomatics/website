@@ -1,21 +1,24 @@
 ---
 layout: page
-title: FAQs
-permalink: /faqs/
+title: FAQ
+permalink: /faq/
 ---
 
 # Frequently Asked Questions
 
 A collection of common questions from MSc Geomatics students. Can't find your answer here? Ask on [Discord](https://discord.gg/XqNYUYCS7b) or contact us at <geomatics@tudelft.nl>.
 
+* auto-generated ToC
+{:toc}
+
 ---
+
 ## Before you start
 
 **Q: Do I need to know how to code before starting?**
 
 You don't need to be a programmer, but GEO1000 (Programming) moves fast and assumes you can pick things up quickly. If you've never written a line of code before, do a short Python intro over the summer — [Python for Everybody](https://www.py4e.com/) or the official Python tutorial are both fine. Students who arrive with zero experience tend to find Q1 stressful.
 
----
 
 **Q: How much math do I actually need?**
 
@@ -37,19 +40,19 @@ They are free and genuinely useful.
 
 The current study guide is available at [studyguide2526.tudelft.nl](https://studyguide2526.tudelft.nl/opleidingen/study-guide/educations/10542/). It lists all mandatory courses, electives, and graduation requirements.
 
----
+
 
 **Q: Where do I find course materials and assignments?**
 
 Most courses use [Brightspace](https://brightspace.tudelft.nl) for materials, assignments, and announcements. Some courses (e.g. GEO1015, GEO1016, GEO1004) have their own dedicated pages — check the links on the [home page](https://geomatics.bk.tudelft.nl/).
 
----
+
 
 **Q: How do I register for exams?**
 
 You must register for exams yourself through the student portal. Full instructions are on the [TU Delft exam registration page](https://www.tudelft.nl/en/student/my-study-me/education/courses-and-exams/exams/registration-for-exams). Missing the registration deadline means you cannot sit the exam.
 
----
+
 
 **Q: Where can I find my timetable?**
 
