@@ -1,5 +1,8 @@
 - category: 📢 News!
   links:
+    - name: 2026-06-08
+      desc: We have a FAQ!
+      url2: /faq/
     - name: 2026-05-07
       desc: Q5 logistics slides online
       url2: /q5/
@@ -93,6 +96,8 @@
 
 - category: Useful links
   links:
+    - name: FAQ
+      url1: /faq/
     - name: Study guide 2025-2026
       url1: https://studyguide2526.tudelft.nl/opleidingen/study-guide/educations/10542
     - name: Official MSc Geomatics page
