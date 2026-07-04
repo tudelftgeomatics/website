@@ -2,19 +2,29 @@
 layout: default
 ---
 
+<nav class="topnav">
+  <a class="brand" href="{{ site.baseurl }}/">
+    <img alt="BK voxelised logo" src="{{ "/img/bk-voxels.png" | prepend: site.baseurl }}" />
+    <strong>MSc Geomatics</strong>
+  </a>
+  <span class="spacer"></span>
+  <button id="theme-toggle" class="outline small" title="Switch theme" aria-label="Switch theme">☾</button>
+</nav>
 
-<div id="top" class="container" role="document">
-  <div class="nav-center">
-    <a class="brand">
-      <img alt="bk voxelised" src="{{ "/img/bk-voxels.png" | prepend: site.url }}"/>
-    </a>
-  </div>
-  
+<main class="container">
+  <section class="hero">
+    <h1>MSc Geomatics info</h1>
+    <p>Everything a TU Delft Geomatics student needs — courses, electives, thesis, administration, and help — in one place.</p>
+  </section>
+
   {{ content }}
-  
-</div>
+</main>
 
-<br>
-<footer class="text-center text-light">
-  <p> <small><img src="https://icongr.am/simple/github.svg?size=16&color=a4565d&colored=false" alt="icon"> Modify, fix, or propose links: <a href="https://github.com/tudelftgeomatics/gm_landing/blob/main/_data/links.yml">github.com/tudelftgeomatics/gm_landing/</a></small></p>
+<footer class="site-footer">
+  <p>
+    <img src="https://icongr.am/simple/github.svg?size=14&color=current&amp;colored=false" alt="GitHub" style="vertical-align: middle" />
+    Modify, fix, or propose links:
+    <a href="https://github.com/tudelftgeomatics/gm_landing/blob/main/_data/links.yml">github.com/tudelftgeomatics/gm_landing/</a>
+  </p>
+  <p>TU Delft · Faculty of Architecture &amp; the Built Environment · CC0</p>
 </footer>

@@ -3,18 +3,96 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MSc Geomatics information page for students</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/chota.css" />
+    <meta name="description" content="MSc Geomatics at TU Delft — information hub for current and prospective students." />
+    <title>{{ page.title | default: "MSc Geomatics info" }} · TU Delft</title>
+    <link rel="icon" href="{{ site.baseurl }}/img/bk-voxels.png" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/oat.min.css" />
+    <script src="{{ site.baseurl }}/js/oat.min.js" defer></script>
     <style>
-      body.dark {
-        --font-color: #481dc9;
-        --color-grey: #ccc;
-        --color-darkGrey: #777;
+      :root {
+        --primary: #00A6D6;
+        --primary-foreground: #ffffff;
+        --ring: #00A6D6;
+        --accent: #E5F6FB;
+        --secondary: #E9F6FB;
+        --secondary-foreground: #006B85;
       }
+      [data-theme="dark"] {
+        color-scheme: dark;
+        --primary: #4FC3F7;
+        --primary-foreground: #08151c;
+        --ring: #4FC3F7;
+        --accent: #0f2a35;
+        --secondary: #122f3a;
+        --secondary-foreground: #9fd4e6;
+      }
+      [data-theme="light"] {
+        color-scheme: light;
+      }
+      .topnav {
+        display: flex;
+        align-items: center;
+        gap: var(--space-3);
+        padding: var(--space-3) var(--space-5);
+        border-bottom: 1px solid var(--border);
+        background: var(--background);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      .topnav .brand { display: flex; align-items: center; gap: var(--space-3); text-decoration: none; color: var(--foreground); }
+      .topnav .brand img { height: 36px; width: auto; }
+      .topnav .brand strong { font-size: var(--text-5); }
+      .topnav .spacer { flex: 1; }
+      .hero {
+        padding: var(--space-7) 0 var(--space-5);
+        text-align: center;
+      }
+      .hero p { color: var(--muted-foreground); max-width: 60ch; margin: var(--space-2) auto 0; }
+      footer.site-footer {
+        border-top: 1px solid var(--border);
+        padding: var(--space-5);
+        text-align: center;
+        color: var(--muted-foreground);
+        font-size: var(--text-7);
+        margin-top: var(--space-7);
+      }
+      footer.site-footer a { color: var(--muted-foreground); }
     </style>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          if (saved === 'dark' || saved === 'light') {
+            document.documentElement.setAttribute('data-theme', saved);
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
 
   <body>
     {{ content }}
+    <script>
+      (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        function current() {
+          var t = document.documentElement.getAttribute('data-theme');
+          if (t) return t;
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        function render() {
+          btn.textContent = current() === 'dark' ? '☀' : '☾';
+        }
+        render();
+        btn.addEventListener('click', function () {
+          var next = current() === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          render();
+        });
+      })();
+    </script>
   </body>
 </html>
