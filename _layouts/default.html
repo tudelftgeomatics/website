@@ -3,52 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="MSc Geomatics at TU Delft — information hub for current and prospective students." />
-    <title>{{ page.title | default: "MSc Geomatics info" }} · TU Delft</title>
+    <meta
+      name="description"
+      content="MSc Geomatics for the Built Environment at TU Delft —- Information hub for current and prospective students."
+    />
+    <title>
+      {{ page.title | default: "MSc Geomatics for the Built Environment" }} · TU
+      Delft
+    </title>
     <link rel="icon" href="{{ site.baseurl }}/img/bk-voxels.png" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/oat.min.css" />
     <script src="{{ site.baseurl }}/js/oat.min.js" defer></script>
     <style>
       :root {
-        --primary: #00A6D6;
-        --primary-foreground: #ffffff;
-        --ring: #00A6D6;
-        --accent: #E5F6FB;
-        --secondary: #E9F6FB;
-        --secondary-foreground: #006B85;
-      }
-      [data-theme="dark"] {
-        color-scheme: dark;
-        --primary: #4FC3F7;
-        --primary-foreground: #08151c;
-        --ring: #4FC3F7;
-        --accent: #0f2a35;
-        --secondary: #122f3a;
-        --secondary-foreground: #9fd4e6;
-      }
-      [data-theme="light"] {
         color-scheme: light;
+        --primary: #934e51;
+        --primary-foreground: #ffffff;
+        --ring: #934e51;
+        --accent: #e5f6fb;
+        --secondary: #e9f6fb;
+        --secondary-foreground: #006b85;
       }
-      .topnav {
-        display: flex;
-        align-items: center;
-        gap: var(--space-3);
-        padding: var(--space-3) var(--space-5);
-        border-bottom: 1px solid var(--border);
-        background: var(--background);
-        position: sticky;
-        top: 0;
-        z-index: 10;
-      }
-      .topnav .brand { display: flex; align-items: center; gap: var(--space-3); text-decoration: none; color: var(--foreground); }
-      .topnav .brand img { height: 36px; width: auto; }
-      .topnav .brand strong { font-size: var(--text-5); }
-      .topnav .spacer { flex: 1; }
-      .hero {
-        padding: var(--space-7) 0 var(--space-5);
+      .home-header {
         text-align: center;
+        padding: var(--space-7) 0 var(--space-5);
       }
-      .hero p { color: var(--muted-foreground); max-width: 60ch; margin: var(--space-2) auto 0; }
+      .home-header img {
+        height: 150px;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      .home-header .tagline {
+        color: var(--muted-foreground);
+        margin-top: var(--space-4);
+        font-size: var(--text-5);
+      }
       footer.site-footer {
         border-top: 1px solid var(--border);
         padding: var(--space-5);
@@ -57,42 +47,32 @@
         font-size: var(--text-7);
         margin-top: var(--space-7);
       }
-      footer.site-footer a { color: var(--muted-foreground); }
+      footer.site-footer a {
+        color: var(--muted-foreground);
+      }
+      #home-content a {
+        color: var(--primary);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      #home-content a:hover {
+        text-decoration: underline;
+      }
+      #home-content .col-4:first-child .card td:first-child {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        white-space: nowrap;
+      }
+      #home-content .col-4:first-child .card td:first-child a {
+        font-weight: 400;
+      }
+      #home-content .card {
+        border: none;
+        background: #fbf5f5;
+      }
     </style>
-    <script>
-      (function () {
-        try {
-          var saved = localStorage.getItem('theme');
-          if (saved === 'dark' || saved === 'light') {
-            document.documentElement.setAttribute('data-theme', saved);
-          }
-        } catch (e) {}
-      })();
-    </script>
   </head>
 
   <body>
     {{ content }}
-    <script>
-      (function () {
-        var btn = document.getElementById('theme-toggle');
-        if (!btn) return;
-        function current() {
-          var t = document.documentElement.getAttribute('data-theme');
-          if (t) return t;
-          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        }
-        function render() {
-          btn.textContent = current() === 'dark' ? '☀' : '☾';
-        }
-        render();
-        btn.addEventListener('click', function () {
-          var next = current() === 'dark' ? 'light' : 'dark';
-          document.documentElement.setAttribute('data-theme', next);
-          try { localStorage.setItem('theme', next); } catch (e) {}
-          render();
-        });
-      })();
-    </script>
   </body>
 </html>

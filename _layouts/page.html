@@ -2,21 +2,16 @@
 layout: default
 ---
 
-<nav class="topnav">
-  <a class="brand" href="{{ site.baseurl }}/">
-    <img alt="BK voxelised logo" src="{{ "/img/bk-voxels.png" | prepend: site.baseurl }}" />
-    <strong>MSc Geomatics</strong>
-  </a>
-  <span class="spacer"></span>
-  <button id="theme-toggle" class="outline small" title="Switch theme" aria-label="Switch theme">☾</button>
-</nav>
-
 <main class="container">
   <nav aria-label="Breadcrumb" style="margin-top: var(--space-4)">
     <ol class="unstyled hstack" style="font-size: var(--text-7)">
       <li><a href="{{ site.baseurl }}/" class="unstyled">Home</a></li>
       <li aria-hidden="true">/</li>
-      <li><a href="{{ page.url }}" class="unstyled" aria-current="page"><strong>{{ page.title }}</strong></a></li>
+      <li>
+        <a href="{{ page.url }}" class="unstyled" aria-current="page"
+          ><strong>{{ page.title }}</strong></a
+        >
+      </li>
     </ol>
   </nav>
 
@@ -24,7 +19,3 @@ layout: default
     {{ content }}
   </article>
 </main>
-
-<footer class="site-footer">
-  <p>TU Delft · Faculty of Architecture &amp; the Built Environment · CC0</p>
-</footer>

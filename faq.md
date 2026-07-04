@@ -154,7 +154,3 @@ Reach out to the [Academic Counsellors](https://www.tudelft.nl/en/student/a-be-s
 Templates and writing guidance are available on the [Geogeeks writing page](https://geomatics.bk.tudelft.nl/geogeeks/writing/).
 
 </details>
-
----
-
-*Something missing or outdated? Propose a fix on [GitHub](https://github.com/tudelftgeomatics/gm_landing/).*
