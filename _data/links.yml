@@ -12,8 +12,6 @@
 
 - category: Useful links
   links:
-    - name: FAQ
-      url1: /faq/
     - name: Study guide 2025-2026
       url1: https://studyguide.tudelft.nl/opleidingen/study-guide/educations/10542
     - name: Official MSc Geomatics page
@@ -27,6 +25,8 @@
 
 - category: Help
   links:
+    - name: FAQ
+      url1: /faq/
     - name: Academic counsellors
       url1: https://www.tudelft.nl/en/student/a-be-student-portal/organisation/academic-counsellors
       desc: 🆘
