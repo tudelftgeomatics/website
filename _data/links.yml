@@ -1,5 +1,8 @@
 - category: 📢 News!
   links:
+    - name: 2026-07-06
+      desc: Info for new students September 2026
+      url2: /welcome/
     - name: 2026-06-12
       desc: A4 presentation dates
       url2: /a4/
@@ -27,18 +30,16 @@
   links:
     - name: FAQ
       url1: /faq/
+      desc: ⁉️
+    - name: Geogeeks
+      url1: https://geomatics.bk.tudelft.nl/geogeeks
+      desc: 🤓
     - name: Academic counsellors
       url1: https://www.tudelft.nl/en/student/a-be-student-portal/organisation/academic-counsellors
       desc: 🆘
     - name: Discord of MSc Geomatics
       url1: https://discord.gg/XqNYUYCS7b
       desc: 💬
-    - name: Geogeeks
-      url1: https://geomatics.bk.tudelft.nl/geogeeks
-      desc: 🤓
-    # - name: MSc Geomatics forms
-    #   url1: https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms
-    #   desc:
 
 - category: Q1 + Q2 courses
   links:

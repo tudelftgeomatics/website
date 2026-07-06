@@ -1,17 +1,13 @@
 ---
 layout: page
-title: FAQ
+title: Frequently Asked Questions
 permalink: /faq/
 ---
 
-# Frequently Asked Questions
-
-A collection of common questions from MSc Geomatics students. Can't find your answer here? Ask on [Discord](https://discord.gg/XqNYUYCS7b) or contact us at <geomatics@tudelft.nl>.
-
+<br>
 * auto-generated ToC
 {:toc}
 
----
 
 ## Before you start
 
