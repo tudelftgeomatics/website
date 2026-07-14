@@ -28,6 +28,9 @@
 
 - category: Help
   links:
+    - name: Welcome 2026
+      url1: /welcome/
+      desc: 🙌
     - name: FAQ
       url1: /faq/
       desc: ⁉️
