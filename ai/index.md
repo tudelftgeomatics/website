@@ -16,7 +16,7 @@ permalink: /ai/
 
 ### General Principle
 
-The use of AI and large language models (LLMs) is permitted in the MSc Geomatics programme as a learning aid for writing, coding, research, and general exploration.
+The use of AI and large language models (LLMs) is permitted in the MSc Geomatics for the Built Environment programme as a learning aid for writing, coding, research, and general exploration.
 AI tools can help you learn, but they must not replace your learning.
 
 | Task | Details |
@@ -124,7 +124,7 @@ The BoE determines whether fraud has occurred and decides on sanctions in accord
 
 If you suspect that fraud might have taken place, you must request an oral authenticity check to verify the student's knowledge and authorship of the submitted work.
 
-If the oral check raises further concerns, you have to report the case as suspected fraud to the **Board of Examiners (BoE)** of the Faculty of Architecture and the Built Environment. The BoE determines whether fraud has occurred and decides on sanctions, in accordance with the TU Delft Examination Regulations.
+If the oral check raises further concerns, the teacher will report the case as suspected fraud to the [**Board of Examiners (BoE)** of the Faculty of Architecture and the Built Environment](https://www.tudelft.nl/en/student/a-be-student-portal/organisation/board-of-examiners).
 
 If the oral authenticity check raises concerns but does not clearly confirm or refute fraud, you may ask them to do a retake of the submitted assignment.
 
