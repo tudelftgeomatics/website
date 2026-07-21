@@ -134,12 +134,9 @@
 
 - category: MSc thesis
   links:
-    - name: GEO2021
-      url1: https://geomatics.bk.tudelft.nl/geo2021
-      desc: thesis >= 2025
-    - name: GEO2020
-      url1: https://3d.bk.tudelft.nl/courses/geo2020
-      desc: thesis <2025
+    - name: GEO2022
+      url1: https://geomatics.bk.tudelft.nl/geo2022/
+      desc: thesis
     - name: Thesis templates
       url1: https://geomatics.bk.tudelft.nl/geogeeks/writing/
       desc: and tips
