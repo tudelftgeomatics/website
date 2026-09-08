@@ -15,10 +15,10 @@ layout: home
           <tbody>
           {% for each in cat.links %}
             <tr>
-              <td>{% if each.url1 %}<a href="{{ each.url1 }}"><strong>{{ each.name }}</strong></a>{% else %}<strong>{{ each.name }}</strong>{% endif %}</td>
+              <td>{% if each.url1 %}<a href="{{ each.url1 | relative_url }}"><strong>{{ each.name }}</strong></a>{% else %}<strong>{{ each.name }}</strong>{% endif %}</td>
               <td>
               {% if each.url2 %}
-                <a href="{{ each.url2 }}">{{ each.desc }}</a>
+                <a href="{{ each.url2 | relative_url }}">{{ each.desc }}</a>
               {% elsif each.desc %}
                 {{ each.desc }}
               {% endif %}
