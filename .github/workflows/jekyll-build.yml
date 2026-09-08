@@ -4,6 +4,15 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,3 +36,24 @@ jobs:
       env:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
       run: 'curl -fL ${{ secrets.UPDATE_URL }}'
+
+    # Build a second copy for GitHub Pages, which is served from a subpath
+    # (https://tudelftgeomatics.github.io/website/)
+    - name: jekyll build (github pages)
+      run: jekyll build --trace --baseurl /website --destination _site_pages
+
+    - name: upload pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: _site_pages
+
+  deploy-pages:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - name: deploy to github pages
+      id: deployment
+      uses: actions/deploy-pages@v4
