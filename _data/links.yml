@@ -119,8 +119,11 @@
     - name: How to register for exams
       url1: https://www.tudelft.nl/en/student/my-study-me/education/courses-and-exams/exams/registration-for-exams
       desc:
-    - name: Student Charter
-      url1: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations/student-charter
+    - name: Transitional measures
+      url1: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations/transitional-measures-master
+      desc:
+    - name: Teaching and Examination Regulations (TER)
+      url1: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations/education-rules-and-regulations
       desc:
     - name: Faculty regulations
       url1: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations
