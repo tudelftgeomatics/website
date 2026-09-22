@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Policy for the use of AI/LLM
+subtitle: MSc Geomatics for the Built Environment
 permalink: /ai/
 ---
 

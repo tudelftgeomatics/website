@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Geomatics Day 2026
+subtitle: MSc Geomatics for the Built Environment
 permalink: /geomaticsday/
 ---
 

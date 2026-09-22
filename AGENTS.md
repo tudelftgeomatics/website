@@ -26,7 +26,7 @@ Restart `jekyll serve` after editing `_config.yml` (it is not auto-reloaded).
 ## Layouts
 
 - `default.html` — bare wrapper: loads `oat.min.css` + `oat.min.js`, defines theme variables in a `<style>` block (see Theming below), and injects `{{ content }}`. **No top bar, no dark-mode toggle, no inline JS** — only `oat.min.js` is loaded.
-- `home.html` — wraps default; renders a centered `<header class="home-header">` with the BK voxels logo (150px) + muted "MSc Geomatics for the Built Environment" tagline, then `<main id="home-content">` with the card grid, then a `<footer class="site-footer">` with the GitHub edit link.
+- `home.html` — wraps default; renders a centered `<header class="home-header">` with the BK voxels logo (150px) + a red `<small>` "MSc Geomatics for the Built Environment" subtitle (styled via `.home-header > small` in `default.html`), then `<main id="home-content">` with the card grid, then a `<footer class="site-footer">` with the GitHub edit link.
 - `page.html` — wraps default; no header, just a breadcrumb (`Home / {page.title}`) and `<article>` capped at 72ch. **No footer.**
 
 ## Theming
