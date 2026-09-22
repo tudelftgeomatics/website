@@ -24,6 +24,15 @@
         --secondary: #e9f6fb;
         --secondary-foreground: #006b85;
       }
+      .topbar {
+        background: var(--primary);
+      }
+      .topbar > .container {
+        padding-block: var(--space-1);
+        font-size: var(--text-7);
+        font-weight: var(--font-medium);
+        color: var(--primary-foreground);
+      }
       .home-header {
         text-align: center;
         padding: var(--space-7) 0 var(--space-5);
@@ -109,6 +118,10 @@
   </head>
 
   <body>
+    <div class="topbar">
+      <div class="container">MSc Geomatics for the Built Environment</div>
+    </div>
+
     {{ content }}
   </body>
 </html>

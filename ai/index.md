@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Policy for the use of AI/LLM
-subtitle: MSc Geomatics for the Built Environment
+# subtitle: MSc Geomatics for the Built Environment
 permalink: /ai/
 ---
 
@@ -16,7 +16,7 @@ permalink: /ai/
 
 ### General Principle
 
-The use of AI and large language models (LLMs) is permitted in the MSc Geomatics for the Built Environment programme as a learning aid for writing, coding, research, and general exploration.
+The use of AI and large language models (LLMs) is permitted in the [MSc Geomatics for the Built Environment](https://www.geomatics.tudelft.nl/) programme as a learning aid for writing, coding, research, and general exploration.
 AI tools can help you learn, but they must not replace your learning.
 
 |    | Task | Details |
