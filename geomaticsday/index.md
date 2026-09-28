@@ -44,6 +44,11 @@ Geomatics Day will conclude with the announcement of the Geomatics best thesis a
 | 17:15 | End |
 
 
+## Register for the day!
+
+<div data-tf-live="01M3KYR4J21R4YACMEJRYREY86"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+
 ## Sponsors of the Geomatics Day
 
 <div class="container demo-grid">
