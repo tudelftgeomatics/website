@@ -53,14 +53,17 @@ Geomatics Day will conclude with the announcement of the Geomatics best thesis a
 
 <div class="container demo-grid">
   <div class="row sponsor-logos">
-    <div class="col-4">
+    <div class="col-6">
       <a href="https://www.sweco.nl/"><img src="sweco_black.png" alt="Sweco"></a>
     </div>
-    <div class="col-4">
+    <div class="col-6">
       <a href="https://www.rijkswaterstaat.nl/over-ons/onze-organisatie/organisatiestructuur/centrale-informatievoorziening"><img src="rws-logo.png" alt="RWS"></a>
     </div>
-    <div class="col-4">
-      <a href="https://www.cgi.com/nl/nl"><img src="logo-cgi.jpg" alt="CGI"></a>
+    <div class="col-6">
+      <a href="https://www.cgi.com/nl/"><img src="logo-cgi.jpg" alt="CGI"></a>
+    </div>
+    <div class="col-6">
+      <a href="https://www.avineon-tensing.com"><img src="tensing.svg" alt="CGI"></a>
     </div>
   </div>
 </div>
