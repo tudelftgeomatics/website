@@ -21,6 +21,11 @@ permalink: /geomaticsday/
 </div>
 
 <br>
+
+
+![](./GEOMATICS_DAY_2026.png){:width="400px"}
+
+<br>
   
 Geomatics Day is your chance to get up to date on the latest research of our students. We will be showing the results of the students’ synthesis project where they partnered with a company or government organisation to address a real world challenge. Companies will be presenting their latest geo-innovations and there will be lively discussions with outstanding professors, CEOs and students about new trends and developments in our domain.
 
@@ -43,11 +48,11 @@ Geomatics Day will conclude with the announcement of the Geomatics best thesis a
 | 16.15 | Meet the Geomatics network: drinks |
 | 17:15 | End |
 
-
-## Register for the day!
+- - -
 
 <div data-tf-live="01M3KYR4J21R4YACMEJRYREY86"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
+- - -
 
 ## Sponsors of the Geomatics Day
 
