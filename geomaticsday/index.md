@@ -70,5 +70,8 @@ Geomatics Day will conclude with the announcement of the Geomatics best thesis a
     <div class="col-6">
       <a href="https://www.avineon-tensing.com"><img src="tensing.svg" alt="CGI"></a>
     </div>
+    <div class="col-6">
+      <a href="https://www.vanoord.com"><img src="vanoord_logo.svg" alt="CGI"></a>
+    </div>
   </div>
 </div>
