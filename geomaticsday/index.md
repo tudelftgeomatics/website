@@ -10,13 +10,13 @@ permalink: /geomaticsday/
     <div class="col-2">
       <span class="badge">When?</span>
     </div>
-    <div class="col-10">Friday 6 November 2026</div>
+    <div class="col-10"><b>Friday 6 November 2026</b></div>
   </div>
   <div class="row">
     <div class="col-2">
       <span class="badge">Where?</span>
     </div>
-    <div class="col-10">TU Delft, Faculty of Architecture and the Built Environment: Berlage rooms</div>
+    <div class="col-10"><b>TU Delft, Faculty of Architecture and the Built Environment (Berlage rooms)</b></div>
   </div>
 </div>
 
@@ -31,7 +31,8 @@ Geomatics Day is your chance to get up to date on the latest research of our stu
 
 Geomatics Day is also the networking event of the _MSc Geomatics for the Built Environment_ programme. Here you can meet students, alumni and other geo-information professionals and explore how Geomatics helps us to better understand, manage and shape the built environment.
 
-Geomatics Day will conclude with the announcement of the Geomatics best thesis award.
+Geomatics Day will conclude with the announcement of the Geomatics best thesis award and by a borrel.
+
 
 ## Tentative programme
 
@@ -43,10 +44,11 @@ Geomatics Day will conclude with the announcement of the Geomatics best thesis a
 | 13:55 | Synthesis project #2: Automatic tree reconstruction for CFD simulations <span class="badge" data-variant="secondary">(in collaboration with Haskoning)</span> |
 | 14:20 | Company pitches |
 | 14:45 | Coffee/tea break |
-| 15:15 | Something about AI and education? |
+| 15:15 | Internships by 2nd-year: what did they do? |
 | 15.40 | Best thesis award 2026 |
 | 16.15 | Meet the Geomatics network: drinks |
 | 17:15 | End |
+
 
 - - -
 
@@ -58,20 +60,20 @@ Geomatics Day will conclude with the announcement of the Geomatics best thesis a
 
 <div class="container demo-grid">
   <div class="row sponsor-logos">
-    <div class="col-6">
+    <div class="col-4">
       <a href="https://www.sweco.nl/"><img src="sweco_black.png" alt="Sweco"></a>
     </div>
-    <div class="col-6">
+    <div class="col-4">
       <a href="https://www.rijkswaterstaat.nl/over-ons/onze-organisatie/organisatiestructuur/centrale-informatievoorziening"><img src="rws-logo.png" alt="RWS"></a>
     </div>
-    <div class="col-6">
+    <div class="col-4">
       <a href="https://www.cgi.com/nl/"><img src="logo-cgi.jpg" alt="CGI"></a>
     </div>
-    <div class="col-6">
+    <div class="col-4">
       <a href="https://www.avineon-tensing.com"><img src="tensing.svg" alt="CGI"></a>
     </div>
-    <div class="col-6">
-      <a href="https://www.vanoord.com"><img src="vanoord_logo.svg" alt="CGI"></a>
+    <div class="col-4">
+      <a href="https://www.vanoord.com"><img src="vanoord_logo.svg" alt="VanOord"></a>
     </div>
   </div>
 </div>
