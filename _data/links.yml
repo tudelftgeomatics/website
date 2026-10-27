@@ -131,6 +131,9 @@
     - name: Faculty regulations
       url1: https://www.tudelft.nl/en/student/a-be-student-portal/education/regulations
       desc:
+    - name: BBR (bestuurs- en beheersreglement)
+      url1: https://filelist.tudelft.nl/TUDelft/Over_TU_Delft/Organisatie/regelingen/beheer%20en%20bestuur/BBR%202023%20wijz%202%20_%20ICO.pdf
+      desc:        
     - name: Fraud & Plagiarism
       url1: https://www.tudelft.nl/en/student/my-study-me/rules-guidelines-and-participation/fraud-plagiarism
       desc:
