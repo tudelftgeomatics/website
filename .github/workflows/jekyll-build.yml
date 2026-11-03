@@ -32,10 +32,10 @@ jobs:
     - name: jekyll build
       run: jekyll build --trace
 
-    - name: trigger update
-      env:
-        DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-      run: 'curl -fL ${{ secrets.UPDATE_URL }}'
+    # - name: trigger update
+    #   env:
+    #     DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+    #   run: 'curl -fL ${{ secrets.UPDATE_URL }}'
 
     # Build a second copy for GitHub Pages, which is served from a subpath
     # (https://tudelftgeomatics.github.io/website/)
