@@ -40,8 +40,8 @@ Geomatics Day will conclude with the announcement of the Geomatics best thesis a
 | ---- | -------- |
 | 13.00 | Registration with coffee and tea |
 | 13.20 | Welcome by Hugo Ledoux, program director MSc Geomatics for the Built Environment |
-| 13.30 | Synthesis project #1: European Point Cloud Data collection and display <span class="badge" data-variant="secondary">(in collaboration with Rijkswaterstaat en Deltares)</span> | 
-| 13:55 | Synthesis project #2: Automatic tree reconstruction for CFD simulations <span class="badge" data-variant="secondary">(in collaboration with Haskoning)</span> |
+| 13.30 | Synthesis project #1: DEM of the Rhine Catchment Area <span class="badge" data-variant="secondary">(in collaboration with Rijkswaterstaat en Deltares)</span> | 
+| 13:55 | Synthesis project #2: Tree reconstruction for CFD modelling <span class="badge" data-variant="secondary">(in collaboration with Haskoning)</span> |
 | 14:20 | Company pitches: Van Oord, Rijkswaterstaat, and Sweco   |
 | 14:45 | Coffee/tea break |
 | 15:15 | Internships by 2nd-year: what did they do? |
